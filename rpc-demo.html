@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSON-RPC Demo for JQuery Terminal Emulator</title>
+    <meta name="author" content="Jakub Jankiewicz - jcubic&#64;onet.pl"/>
+    <meta name="Description" content="Demonstration for JQuery Terminal Emulator using call automaticly JSON-RPC service (in php) with authentication."/>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.mousewheel-min.js"></script>
+    <script src="js/jquery.terminal-min.js"></script>
+    <link href="css/jquery.terminal.css" rel="stylesheet"/>
+    <script>
+    var jai_weds_prerita = "\
+\n       __      _    \
+\n      / /___ _(_)   \
+\n __  / / __ `/ /    \
+\n/ /_/ / /_/ / /     \
+\n\\____/\\__,_/_/      \
+\n\
+\n    weds                             \
+\n    ____                 _ __        \
+\n   / __ \\________  _____(_) /_____ _ \
+\n  / /_/ / ___/ _ \\/ ___/ / __/ __ `/ \
+\n / ____/ /  /  __/ /  / / /_/ /_/ /  \
+\n/_/   /_/   \\___/_/  /_/\\__/\\__,_/   \
+\n                                     \
+  ";
+
+    jQuery(document).ready(function($) {
+        $('body').terminal("http://services.anubhav.com/json-rpc-service-demo.php",
+            {
+                prompt : '$',
+                'greetings': jai_weds_prerita
+            });
+    });
+    </script>
+  </head>
+<body>
+</body>

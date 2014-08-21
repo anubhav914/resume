@@ -1,0 +1,196 @@
+.bold {
+    padding-bottom: 30px;
+}
+.bold h1, .bold h2, .bold h3, .bold h4, .bold h5, .bold h6, .bold p, .bold ul, .bold ul li, .bold span, .bold strong {
+    font-family: "Raleway",  "Helvetica Neue",  Helvetica,  Arial,  sans-serif;
+    font-weight: 400;
+    color: #474747;
+}
+.bold strong {
+    font-weight: 700 !important;
+}
+.bold p, .bold ul, .bold ul li, .bold span, .bold strong {
+    font-size: 16px;
+}
+.bold .fixed.contain-to-grid {
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+}
+.bold .fixed.contain-to-grid .top-bar {
+    width: 960px;
+}
+.bold .fixed.contain-to-grid+.resume_container {
+    margin-top: 30px;
+}
+.bold .skill_list h3 {
+    line-height: 1.4 !important;
+}
+.bold .skill_list.language_list h3, .bold .skill_list.language_list h4 {
+    display: inline;
+}
+.bold .about {
+    padding-top: 20px;
+    background: #f0f0f0;
+    margin-top: -30px;
+}
+.bold .about .name {
+    margin-top: 20px;
+}
+.bold .about .name h1 {
+    font-size: 2.3em;
+    margin: 0;
+}
+.bold .about .name h6 {
+    color: #7a7a7a;
+    font-style: italic;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0;
+}
+.bold .about .website {
+    word-wrap: break-word;
+}
+.bold .about .personal_details {
+    margin-bottom: 10px;
+}
+.bold .about .contact {
+    margin: 0;
+}
+.bold .about .contact.panel {
+    background: #f8f8f8;
+}
+.bold .about .contact li {
+    list-style: none;
+}
+.bold .about .contact li span, .bold .about .contact li strong, .bold .about .contact li a {
+    font-size: 0.9em;
+}
+.bold .about .objective {
+    /*margin-bottom: 20px;*/
+    margin-top: 10px;
+    color: #595959;
+}
+.bold .about .objective p, .bold .about .objective ul, .bold .about .objective ul li, .bold .about .objective span {
+    font-size: 15px !important;
+    line-height: 1.8;
+}
+.bold .about .objective ul {
+    margin-left: 10px;
+}
+.bold .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.bold .section h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.bold .section h2.section_header {
+    font-size:  18px;
+    text-transform:  uppercase;
+    color:  #008fd5;
+    border-top:  5px solid #008fd5;
+}
+.bold .section .item {
+    /*padding-left: 30px;*/
+    padding-bottom: 10px;
+}
+.bold .section .item:last-child {
+    border-bottom: none;
+}
+.bold .section .item h1, .bold .section .item h2, .bold .section .item h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.bold .section .item p {
+    margin: 0px 0;
+}
+.bold .section .item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.bold .section .item h4 {
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.bold .section .date {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #757575;
+    position: relative;
+    margin-bottom: 10px;
+}
+.bold .section .description ul {
+    margin-left: 50px;
+}
+.description p{
+    font-size: 14px;
+}
+.bold footer.powered_by {
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.bold footer.powered_by a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed #49ADED;
+}
+.bold footer.powered_by a:hover {
+    border-bottom-style: solid;
+}
+.bold.pdf {
+    padding-top: 15px;
+}
+.bold.pdf p, .bold.pdf ul, .bold.pdf ul li, .bold.pdf span, .bold.pdf strong {
+    font-size: 14px;
+}
+.bold.pdf .contact.panel {
+    padding: 10px;
+}
+.bold.pdf footer.powered_by {
+    border: none;
+}
+.bold.pdf .section h2.section_header {
+    font-size: 1.2em;
+}
+.bold.pdf .about {
+    padding-top: 20px;
+}
+.bold.pdf .about h1 {
+    font-size: 30px;
+}
+.bold.pdf .about h6 {
+    font-size: 0.8em;
+}
+.bold.pdf .about .objective {
+    margin-bottom: 20px;
+    color: #595959;
+}
+.bold.pdf .about .objective p, .bold.pdf .about .objective ul, .bold.pdf .about .objective ul li, .bold.pdf .about .objective span {
+    font-size: 16px !important;
+    line-height: 1.5;
+}
+.bold.pdf .about .objective ul {
+    margin-left: 10px;
+}
+.bold.pdf .section .item h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    font-weight: 400;
+}
+.bold.pdf .section .item h4 {
+    font-weight: bold;
+    font-size: 1em;
+    font-weight: 400;
+    color: #bfbfbf;
+}
